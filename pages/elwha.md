@@ -43,6 +43,5 @@ images:
     - path: /images/suites/elwha/IMG_5338-cam01.jpg
     - path: /images/suites/elwha/IMG_3458.jpg
     - path: /images/suites/elwha/IMG_3459.jpg
-    - path: /images/suites/elwha/IMG_3533.jpg
     - path: /images/suites/elwha/IMG_3583.jpg
 ---

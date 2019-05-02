@@ -9,7 +9,7 @@ the_suites:
       text: 'View Details'
       url: '/yakima/'
     photo:
-      path: images/FLS-building-070115-2-home-page.jpg
+      path: /images/suites/yakima/IMG_2546.jpg
       alt_text: 'The Yakima Suite'
     book:
       text: 'Book the Yakima Suite'

@@ -9,6 +9,14 @@
         font-style: italic;
     }
 
+    &--alt {
+        text-align: center;
+        p {
+            font-family: $font_default;
+            font-style: normal;
+        }
+    }
+
     &--dark-bg {
         p {
             color: #fff;
