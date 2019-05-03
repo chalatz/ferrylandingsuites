@@ -3,7 +3,7 @@ layout: suite
 permalink: /yakima/
 has_slider: true
 title: The Yakima suite
-header_image: /images/suites/yakima/IMG_3521.jpg
+header_image: /images/suites/yakima-header.jpg
 header_text: the Yakima suite
 info: |-
     A romantic loft getaway with non-stop views of the harbor and all the comforts of home.
@@ -45,12 +45,4 @@ images:
     - path: /images/suites/yakima/IMG_3469.jpg
     - path: /images/suites/yakima/IMG_3480.jpg
     - path: /images/suites/yakima/IMG_3490.jpg
-    - path: /images/suites/yakima/IMG_3486.jpg
-    - path: /images/suites/yakima/IMG_3492.jpg
-    - path: /images/suites/yakima/IMG_3495.jpg
-    - path: /images/suites/yakima/IMG_3497.jpg
-    - path: /images/suites/yakima/IMG_3504.jpg
-    - path: /images/suites/yakima/IMG_3508.jpg
-    - path: /images/suites/yakima/IMG_3513.jpg
-    - path: /images/suites/yakima/IMG_3521.jpg
 ---
