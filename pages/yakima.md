@@ -1,6 +1,8 @@
 ---
 layout: suite
 permalink: /yakima/
+redirect_from:
+    - /yakima.php.html
 has_slider: true
 title: The Yakima suite
 header_image: /images/suites/yakima-header.jpg

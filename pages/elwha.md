@@ -1,6 +1,8 @@
 ---
 layout: suite
 permalink: /elwha/
+redirect_from:
+    - /elwha.php.html
 has_slider: true
 title: The Elwha suite
 header_image: /images/suites/elwha-header.jpg

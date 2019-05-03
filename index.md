@@ -4,4 +4,6 @@
 
 layout: home
 id: home
+redirect_from:
+    - /index.php.html
 ---
