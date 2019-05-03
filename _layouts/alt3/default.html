@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+
+  <body id="page-top" class="index">
+
+    {% include navigation.html %}
+    {% include alt3/header.html %}
+    
+    {{ content }}
+
+    {% include footer.html %}
+    {% include js.html %}
+
+    {%- if page.id == 'home' -%}
+      <script>    
+        $(window).on('load', function(){
+          $('.intro-text--home').addClass('fade-me-in');
+        });  
+      </script>
+    {%- endif -%}
+
+  </body>
+
+</html>
