@@ -1,7 +1,7 @@
-<ul id="lightSlider" class="cS-hidden suite__gallery">
+<div class="suite__gallery">
     {%- for item in page.images -%}
-        <li class="suite__gallery-item" data-thumb="{{- item.path | relative_url -}}">
-            <img class="suite__gallery-img"  src="{{- item.path | relative_url -}}" alt="{{- item.alt_text -}}">
-        </li>
+        <div class="suite__gallery-item">
+            <img class="suite__gallery-img" src="{{- item.path | relative_url -}}" alt="{{- item.alt_text -}}">
+        </div>
     {%- endfor -%}
-</ul>
+</div>

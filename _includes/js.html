@@ -19,8 +19,18 @@
   });
 </script>
 {%- if page.has_slider == true -%}
-    <script src="{{ "/assets/js/lightslider.min.js" | relative_url }}"></script>
+    <script src="{{ "/assets/js/jquery-migrate.min.js" | relative_url }}"></script>
+    <script src="{{ "/assets/js/slick.min.js" | relative_url }}"></script>
+    <script>
+      $(document).ready(function(){
+        $('.suite__gallery').slick({
+          nextArrow: '<i class="fa fa-chevron-circle-right slider-nav slider-nav--next" aria-hidden="true"></i>',
+          prevArrow: '<i class="fa fa-chevron-circle-left slider-nav slider-nav--prev" aria-hidden="true"></i>'
+        });
+      });
+    </script>
     <script type="text/javascript">
+      /*
         $(document).ready(function() {
           // var slider_wrapper = $('.slider-wrapper');
           $("#lightSlider").lightSlider({
@@ -43,6 +53,7 @@
               prevHtml: '<i class="fa fa-chevron-circle-left ls-control" aria-hidden="true"></i>'
           }); 
         });
+        /*
       </script>
 {%- endif -%}
 
