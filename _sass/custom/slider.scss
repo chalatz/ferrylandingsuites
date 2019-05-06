@@ -1,0 +1,34 @@
+.slick-slide {
+    .suite__gallery-thumbnail {
+        opacity: .55;
+    }
+    &.slick-current {
+        .suite__gallery-thumbnail {
+            opacity: 1;
+        }
+    }
+}
+
+.slider-nav {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    color: #fff;
+    font-size: 30px;
+    opacity: .9;
+    z-index: 1;
+    -webkit-transition: opacity .3s linear;
+    transition: opacity .3s linear;
+    &:hover {
+        opacity: .55;
+    }
+    &--next {
+        right: 10px;
+    }
+    &--prev {
+        left: 10px;
+    }
+}
