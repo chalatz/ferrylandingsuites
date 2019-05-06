@@ -85,12 +85,24 @@ ul.navbar-nav {
     margin: 50px 0 30px 0;
 }
 
+
 header {
     background-repeat: no-repeat;
     
     .intro-text--home {
         opacity: 0;
         top: $move_intro_text;
+        padding-top: 500px;
+        padding-bottom: 0;
+        
+        .intro-lead-in--home {
+            font-size: 24px;
+            margin: 0;
+        }
+        .intro-heading--home {
+            font-size: 45px;
+            margin: 0;
+        }
     }
 }
 
