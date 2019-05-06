@@ -93,3 +93,11 @@ header {
         top: $move_intro_text;
     }
 }
+
+.navbar-default .navbar-brand {
+    font-family: $font_primary;
+}
+
+.navbar-logo-link {
+    font-size: 12px !important;
+}
