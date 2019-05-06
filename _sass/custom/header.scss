@@ -92,16 +92,31 @@ header {
     .intro-text--home {
         opacity: 0;
         top: $move_intro_text;
-        padding-top: 500px;
-        padding-bottom: 0;
+        
+        padding-top: 200px;
+        padding-bottom: 50px;
+
+        @media (min-width: 768px) {
+            padding-top: 400px;
+            padding-bottom: 50px;
+        }
+
+        @media (min-width: 991px) {
+            padding-top: 500px;
+            padding-bottom: 0;
+        }
         
         .intro-lead-in--home {
             font-size: 24px;
             margin: 0;
         }
         .intro-heading--home {
-            font-size: 45px;
+            font-size: 40px;
             margin: 0;
+            @media (min-width: 991px) {
+                font-size: 45px;
+            }
+
         }
     }
 }
