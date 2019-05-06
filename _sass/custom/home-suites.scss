@@ -23,14 +23,14 @@
     &__link {
 
         &--title {
-            color: initial;
+            color: $color_dark;
             &:hover {
                 color: inherit;
             }
         }
 
         &--img {
-            display: inline-block;
+            display: block;
             overflow: hidden;
             img {
                 transition: transform .2s ease-in;
