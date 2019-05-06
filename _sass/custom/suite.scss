@@ -44,6 +44,15 @@
         list-style: none;
     }
 
+    &__gallery-item {
+        &:hover {
+            cursor: grab;
+        }
+        &:active {
+            cursor: grabbing;
+        }
+    }
+
     &__gallery-thumbnail {
         padding: 0 5px;
         cursor: pointer;
