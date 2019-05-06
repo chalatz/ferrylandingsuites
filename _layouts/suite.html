@@ -28,6 +28,11 @@ layout: page
         <div class="row">
             <div class="col-md-5 suite__description">
                 {{ page.description | markdownify }}
+                <p>
+                    <a target="_blank" href="{{ page.button.url }}" class="page-scroll btn btn-lg btn-block btn--alt home-suites__button home-suites__button--book suite__button">
+                        {{ page.button.text }}
+                    </a>
+                </p>
             </div>
             <div class="col-md-7 slider-wrapper">
                 {%- include slider.html -%}
@@ -41,11 +46,6 @@ layout: page
         </p>
         <p>
             {{ page.footer.contact }}
-        </p>
-        <p>
-            <a target="_blank" href="{{ page.button.url }}" class="page-scroll btn btn-lg btn--alt home-suites__button home-suites__button--book suite__button">
-                {{ page.button.text }}
-            </a>
         </p>
     </div>
 
