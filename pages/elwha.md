@@ -6,7 +6,6 @@ redirect_from:
 has_slider: true
 title: The Elwha suite
 header_image: /images/suites/elwha-header.jpg
-header_text: the Elwha suite
 info: |-
     Thoughtfully furnished with an open living/kitchen/dining area and spectacular view, the Elwha suite is a perfect vacation base for two couples or a family.
 description: |-

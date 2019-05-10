@@ -1,7 +1,9 @@
-<header class="parallax-window page__header dark-overlay row" data-parallax="scroll" data-image-src="{{- page.header_image | relative_url -}}">
+<header class="parallax-window page__header row{% if page.layout == 'suite' %} light-overlay{% else %} dark-overlay{% endif %}" data-parallax="scroll" data-image-src="{{- page.header_image | relative_url -}}">
     <div class="container">
-        <div class="intro-text page__intro-text row">
-            <div class="intro-lead-in intro-lead-in--page">{{- page.header_text -}}</div>
-        </div>
+            <div class="intro-text page__intro-text row">
+            {%- unless page.layout == 'suite' -%}
+                <div class="intro-lead-in intro-lead-in--page">{{- page.header_text -}}</div>
+            {%- endunless -%}
+            </div>
     </div>
 </header>

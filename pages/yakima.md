@@ -6,7 +6,6 @@ redirect_from:
 has_slider: true
 title: The Yakima suite
 header_image: /images/suites/yakima-header.jpg
-header_text: the Yakima suite
 info: |-
     A romantic loft getaway with non-stop views of the harbor and all the comforts of home.
 description: |-
