@@ -75,7 +75,9 @@
                 color: $color_dark;
             }
         }
-        &--details {
+        &--details,
+        &--details:visited,
+        &--details:focus {
             background-color: $cta_blue;
             color: #fff;
             border-width: 2px;
@@ -87,12 +89,16 @@
                 color: $cta_blue;
             }
         }
-        &--home-book {
+        &--home-book,
+        &--home-book:visited,
+        &--home-book:focus {
             background-color: $cta_orange;
             color: #fff;
             border-width: 2px;
             border-color: $cta_orange;
-            &:hover {
+            &:hover,
+            &:visited,
+            &:focus {
                 background-color: lighten($cta_orange, 10%);                
                 border-color: lighten($cta_orange, 10%);
             }
