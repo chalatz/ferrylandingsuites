@@ -13,9 +13,6 @@
     }
 }
 
-// .navbar-default {
-//     background-color: $nav_bg; }
-
 .navbar-default {
     background-color: $nav_bg;
     @media (min-width: 768px){
@@ -110,7 +107,7 @@ header {
         top: $move_intro_text;
         
         padding-top: 200px;
-        padding-bottom: 50px;
+        padding-bottom: 20px;
 
         @media (min-width: 768px) {
             padding-top: 400px;
@@ -125,6 +122,7 @@ header {
         .intro-lead-in--home {
             font-size: 24px;
             margin: 0;
+            line-height: 1.4;
             
             @media (min-width: 991px) {
                 margin-bottom: 16px;
