@@ -109,6 +109,10 @@ header {
         .intro-lead-in--home {
             font-size: 24px;
             margin: 0;
+            
+            @media (min-width: 991px) {
+                margin-bottom: 16px;
+            }
         }
         .intro-heading--home {
             font-size: 40px;
