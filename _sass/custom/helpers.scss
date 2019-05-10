@@ -55,6 +55,17 @@
     box-shadow: inset 0 0 0 2000px rgba(0,0,0,0.7);
 }
 
+.nav-overlay {
+    box-shadow: none;
+    @media (min-width: 768px){
+        box-shadow: inset 0 0 0 2000px rgba($nav_bg_light,0.35);
+    }
+}
+
+.nav-bg {
+    background-color: $nav_bg !important;
+}
+
 .p10_0 {
     @media(min-width: 768px) {
         padding: 10px 0;

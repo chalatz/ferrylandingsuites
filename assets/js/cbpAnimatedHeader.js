@@ -31,9 +31,12 @@ var cbpAnimatedHeader = (function() {
 		if ( sy >= changeHeaderOn ) {
 			classie.add( header, 'navbar-shrink' );
 			classie.add( logo_img, 'narrow' );
+			classie.remove( header, 'nav-overlay' );
 		}
 		else {
+			classie.add( header, 'nav-overlay' );
 			classie.remove( header, 'navbar-shrink' );
+			classie.remove( header, 'nav-bg' );
 			classie.remove( header, 'p10_0' );
 			classie.remove( logo_img, 'narrow' );
 		}
@@ -43,7 +46,8 @@ var cbpAnimatedHeader = (function() {
 	function on_init() {
 		var sy = scrollY();
 		if ( sy >= changeHeaderOn ) {
-			classie.add( header, 'dark-bg' );
+			classie.remove( header, 'nav-overlay' );
+			classie.add( header, 'nav-bg' );
 			classie.add( header, 'p10_0' );
 			classie.add( logo_img, 'narrow' );
 		}

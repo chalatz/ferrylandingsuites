@@ -25,4 +25,7 @@ $font_default: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 $font_primary: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
 $font_secondary: "Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif;
 
+$nav_bg: #054f96;
+$nav_bg_light: lighten($nav_bg, 20%);
+
 $move_intro_text: 16px;

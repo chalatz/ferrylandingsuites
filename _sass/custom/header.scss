@@ -13,6 +13,16 @@
     }
 }
 
+// .navbar-default {
+//     background-color: $nav_bg; }
+
+.navbar-default {
+    background-color: $nav_bg;
+    @media (min-width: 768px){
+        background-color: unset;
+    }
+}
+
 .navbar-brand {
     padding: 0;
     position: absolute;
@@ -31,6 +41,12 @@
             width: 275px;
             top: -15px;
         }
+    }
+}
+
+@media(min-width:768px) {
+    .navbar-default.navbar-shrink {
+        background-color:$nav_bg;
     }
 }
 
