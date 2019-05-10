@@ -75,6 +75,28 @@
                 color: $color_dark;
             }
         }
+        &--details {
+            background-color: $cta_blue;
+            color: #fff;
+            border-width: 2px;
+            border-color: $cta_blue;
+            letter-spacing: 1px;
+            &:hover {
+                background-color: #fff;
+                border-color: $cta_blue;
+                color: $cta_blue;
+            }
+        }
+        &--home-book {
+            background-color: $cta_orange;
+            color: #fff;
+            border-width: 2px;
+            border-color: $cta_orange;
+            &:hover {
+                background-color: lighten($cta_orange, 10%);                
+                border-color: lighten($cta_orange, 10%);
+            }
+        }
         &--var2 {
             background-color: transparent;
             border-color: #0e354f;
