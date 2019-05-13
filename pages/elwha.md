@@ -22,6 +22,7 @@ description: |-
   - Private deck (seating for 4+) overlooking the harbor
   - Spacious bath with shower
   - Reserved parking space
+  - Free WiFI
 footer:
   message: 'The ELWHA suite: a panoramic flat in the heart of Friday Harbor'
   contact: Call 800.391.8190 for reservations
