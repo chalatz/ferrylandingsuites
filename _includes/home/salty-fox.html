@@ -1,0 +1,13 @@
+<section class="salty-fox row">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img class="img-responsive" src="{{- site.data.salty_fox.image.path | relative_url -}}" alt="{{- site.data.salty_fox.image.alt_text -}}">
+            </div>
+
+            <div class="col-md-6">
+                {{ site.data.salty_fox.text | markdownify }}
+            </div>
+        </div>
+    </div>
+</section>
