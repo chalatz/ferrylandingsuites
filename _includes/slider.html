@@ -1,15 +1,15 @@
 <div class="suite__gallery">
-    {%- for item in page.images -%}
+    {%- for image in page.images -%}
         <div class="suite__gallery-item hidden">
-            <img class="suite__gallery-img" src="{{- item.path | relative_url -}}" alt="{{- item.alt_text -}}">
+            <img class="suite__gallery-img" src="{{- image | relative_url -}}" alt="">
         </div>
     {%- endfor -%}
 </div>
 
 <div class="suite__thumbnails hidden">
-    {%- for item in page.images -%}
+    {%- for image in page.images -%}
         <div class="suite__gallery-thumbnail{% if forloop.first %} suite__gallery-thumbnail--first{% endif %}{% if forloop.last %} suite__gallery-thumbnail--last{% endif %}">
-            <img class="suite__gallery-thumbnail-img" src="{{- item.path | relative_url -}}" alt="{{- item.alt_text -}}">
+            <img class="suite__gallery-thumbnail-img" src="{{- image | relative_url -}}" alt="">
         </div>
     {%- endfor -%}
 </div>
