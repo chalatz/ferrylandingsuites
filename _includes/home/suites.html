@@ -14,7 +14,7 @@
         </div>
         <div class="row home-suites__items">
             {% for suite in site.data.suites.the_suites %}
-                <div class="col-sm-6 col-md-6 portfolio-item home-suites__item">
+                <div class="col-md-6 portfolio-item home-suites__item">
                     <a href="{{- suite.link.url | relative_url -}}" class="portfolio-link home-suites__link--img">
                         <img src="{{- suite.photo.path | relative_url -}}" class="img-responsive img-centered" alt="{{- suite.photo.alt_text -}}">
                     </a>

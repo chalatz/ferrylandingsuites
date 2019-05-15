@@ -17,4 +17,15 @@
         color: $color_dark;
     }
 
+    &.salty-fox,
+    &.walking {
+        h3,
+        h4 {
+            margin-top: 15px;
+            @media (min-width: 991px){
+                margin-top: 0;
+            }
+        }
+    }
+
 }
