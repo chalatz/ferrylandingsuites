@@ -63,5 +63,9 @@ fields:
   - type: file
     name: path
     label: path
+- name: gallery
+  type: image_gallery
+  config: {}
+  label: gallery
 pages:
 - pages/elwha.md
