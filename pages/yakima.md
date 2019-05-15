@@ -51,4 +51,5 @@ images:
 - path: "/images/suites/yakima/IMG_3480.jpg"
 - path: "/images/suites/yakima/IMG_3490.jpg"
 - path: "/images/suites/IMG_3383.jpg"
+
 ---
