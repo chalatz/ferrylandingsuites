@@ -47,8 +47,5 @@ images:
 - "/images/suites/elwha/IMG_5333-cam01.jpg"
 - "/images/suites/elwha/IMG_5338-cam01.jpg"
 - "/images/suites/IMG_3383.jpg"
-gallery:
-- "/images/salty-fox.jpg"
-- "/images/suites/IMG_3383.jpg"
 
 ---
