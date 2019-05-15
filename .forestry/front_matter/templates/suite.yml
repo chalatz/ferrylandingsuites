@@ -26,6 +26,10 @@ fields:
 - type: textarea
   name: description
   label: description
+- name: images
+  type: image_gallery
+  config: {}
+  label: Images
 - type: field_group
   name: footer
   label: footer
@@ -56,16 +60,5 @@ fields:
   - type: text
     name: url
     label: url
-- type: field_group_list
-  name: images
-  label: images
-  fields:
-  - type: file
-    name: path
-    label: path
-- name: gallery
-  type: image_gallery
-  config: {}
-  label: gallery
 pages:
 - pages/elwha.md
