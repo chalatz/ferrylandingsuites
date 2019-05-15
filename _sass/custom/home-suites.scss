@@ -88,6 +88,19 @@
                 color: $cta_blue;
             }
         }
+        &--book,
+        &--book:visited,
+        &--book:focus {
+            background-color: $cta_orange;
+            color: #fff;
+            border-width: 2px;
+            border-color: $cta_orange;
+            &:hover {
+                background-color: #fff;
+                border-color: $cta_orange;
+                color: $cta_orange;
+            }
+        }
         &--home-book,
         &--home-book:visited,
         &--home-book:focus {
@@ -95,11 +108,10 @@
             color: #fff;
             border-width: 2px;
             border-color: $cta_orange;
-            &:hover,
-            &:visited,
-            &:focus {
-                background-color: lighten($cta_orange, 10%);                
-                border-color: lighten($cta_orange, 10%);
+            &:hover {
+                background-color: #fff;
+                color: $cta_orange;
+                border-color: $cta_orange;
             }
         }
         &--var2 {
