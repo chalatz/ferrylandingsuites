@@ -1,0 +1,13 @@
+<section class="home-extra-section private-parking bg-light-gray row">
+    <div class="container">
+        <div class="row">            
+            <div class="col-md-6">
+                {{ site.data.private_parking.text | markdownify }}
+            </div>
+
+            <div class="col-md-6">
+                <img class="img-responsive" src="{{- site.data.private_parking.image.path | relative_url -}}" alt="{{- site.data.private_parking.image.alt_text -}}">
+            </div>
+        </div>
+    </div>
+</section>
