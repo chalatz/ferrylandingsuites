@@ -63,3 +63,5 @@ fields:
   - type: file
     name: path
     label: path
+pages:
+- pages/elwha.md
