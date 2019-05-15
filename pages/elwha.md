@@ -26,8 +26,11 @@ description: |-
 footer:
   message: 'The ELWHA suite: a panoramic flat in the heart of Friday Harbor'
   contact: Call 800.391.8190 for reservations
-button:
+button_book:
   text: Book the Elwha Suite
+  url: http://www.vacationrentalssanjuanislands.com/Unit/Details/67008
+button_rates:
+  text: Rates & Availability
   url: http://www.vacationrentalssanjuanislands.com/Unit/Details/67008
 images:
 - path: "/images/suites/elwha/IMG_3338.jpg"

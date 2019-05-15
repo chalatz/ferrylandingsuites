@@ -28,8 +28,11 @@ description: |-
 footer:
   message: 'The YAKIMA suite: top of the town studio in Friday Harbor'
   contact: Call 800.391.8190 for reservations
-button:
+button_book:
   text: Book the Yakima Suite
+  url: http://www.vacationrentalssanjuanislands.com/Unit/Details/67007
+button_rates:
+  text: Rates & Availability
   url: http://www.vacationrentalssanjuanislands.com/Unit/Details/67007
 images:
 - path: "/images/suites/yakima/IMG_3406.jpg"
