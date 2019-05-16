@@ -33,19 +33,19 @@ button_rates:
   text: Rates & Availability
   url: http://www.vacationrentalssanjuanislands.com/Unit/Details/67008
 images:
+- "/images/suites/elwha/IMG_5296-cam01.jpg"
+- "/images/suites/elwha/IMG_5327-cam01.jpg"
+- "/images/suites/elwha/IMG_5312-cam01.jpg"
+- "/images/suites/elwha/IMG_5333-cam01.jpg"
+- "/images/suites/elwha/IMG_5321-alt-cam01.jpg"
+- "/images/suites/elwha/IMG_5338-cam01.jpg"
 - "/images/suites/elwha/IMG_3338.jpg"
 - "/images/suites/elwha/IMG_3352.jpg"
 - "/images/suites/elwha/IMG_3362.jpg"
+- "/images/suites/elwha/IMG_5293-cam01.jpg"
 - "/images/suites/elwha/IMG_5282-cam01.jpg"
 - "/images/suites/elwha/IMG_5286-cam01.jpg"
 - "/images/suites/elwha/IMG_5290-cam01.jpg"
-- "/images/suites/elwha/IMG_5293-cam01.jpg"
-- "/images/suites/elwha/IMG_5296-cam01.jpg"
-- "/images/suites/elwha/IMG_5312-cam01.jpg"
-- "/images/suites/elwha/IMG_5321-alt-cam01.jpg"
-- "/images/suites/elwha/IMG_5327-cam01.jpg"
-- "/images/suites/elwha/IMG_5333-cam01.jpg"
-- "/images/suites/elwha/IMG_5338-cam01.jpg"
 - "/images/suites/IMG_3383.jpg"
 
 ---
