@@ -3,7 +3,7 @@ heading: The Suites
 subheading: Ferry Landing Suites consists of two charming suites in an historic building..
 the_suites:
 - name: The Yakima Suite
-  description: A studio apartment on the top floor...
+  description: A studio apartment on the top floor....
   link:
     text: View Details
     url: "/yakima/"
