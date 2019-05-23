@@ -1,30 +1,30 @@
+---
 heading: The Suites
-
-subheading: Ferry Landing Suites consists of two charming suites in an historic building...
-
+subheading: Ferry Landing Suites consists of two charming suites in an historic building..
 the_suites:
-  - name: 'The Yakima Suite'
-    description: 'A studio apartment on the top floor...'
-    link:
-      text: 'View Details'
-      url: '/yakima/'
-    photo:
-      path: /images/suites/yakima/IMG_3438-alt2.jpg
-      alt_text: 'The Yakima Suite'
-    book:
-      text: 'Book the Yakima Suite'
-      url: http://www.vacationrentalssanjuanislands.com/Unit/Details/67007
-
-  - name: 'The Elwha Suite'
-    description: 'A two-bedroom apartment on the second floor...'
-    link:
-      text: 'View Details'
-      url: '/elwha/'
-    photo:
-      path: /images/suites/elwha/IMG_5296-cam01.jpg
-      alt_text: 'The Elwha Suite'
-    book:
-      text: 'Book the Elwha Suite'
-      url: http://www.vacationrentalssanjuanislands.com/Unit/Details/67008
-
-description: Weekends in the summer season are a two-night minimum. Rates for the Yakima Suite reflect double occupancy; rates for the Elwha Suite reflect two couples. Additional discounts apply when you book five or more consecutive nights. No pets please.       
+- name: The Yakima Suite
+  description: A studio apartment on the top floor...
+  link:
+    text: View Details
+    url: "/yakima/"
+  photo:
+    path: "/images/suites/yakima/IMG_3438-alt2.jpg"
+    alt_text: The Yakima Suite
+  book:
+    text: Book the Yakima Suite
+    url: http://www.vacationrentalssanjuanislands.com/Unit/Details/67007
+- name: The Elwha Suite
+  description: A two-bedroom apartment on the second floor...
+  link:
+    text: View Details
+    url: "/elwha/"
+  photo:
+    path: "/images/suites/elwha/IMG_5296-cam01.jpg"
+    alt_text: The Elwha Suite
+  book:
+    text: Book the Elwha Suite
+    url: http://www.vacationrentalssanjuanislands.com/Unit/Details/67008
+description: Weekends in the summer season are a two-night minimum. Rates for the
+  Yakima Suite reflect double occupancy; rates for the Elwha Suite reflect two couples.
+  Additional discounts apply when you book five or more consecutive nights. No pets
+  please.
