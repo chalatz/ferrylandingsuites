@@ -3,7 +3,7 @@ layout: contact
 permalink: "/contact/"
 redirect_from:
 - "/contact.php.html"
-title: Contact Ferry Landing Suites
+title: Contact the Ferry Landing Suites
 header_image: "/images/IMG_1855.jpg"
 header_text: Contact info & how to get here
 info:
