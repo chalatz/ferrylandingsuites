@@ -1,0 +1,4 @@
+Redirect 301 /index.php /
+Redirect 301 /elwha.php /elwha/
+Redirect 301 /yakima.php /yakima/
+Redirect 301 /contact.php /contact/
