@@ -28,10 +28,10 @@ footer:
   contact: Call 800.391.8190 for reservations
 button_book:
   text: Book the Elwha Suite
-  url: http://www.vacationrentalssanjuanislands.com/Unit/Details/67008
+  url: https://www.nwvacations.com/vacation-rentals/rental/01-1902/
 button_rates:
   text: Rates & Availability
-  url: http://www.vacationrentalssanjuanislands.com/Unit/Details/67008
+  url: https://www.nwvacations.com/vacation-rentals/rental/01-1902/
 images:
 - "/images/suites/elwha/IMG_5296-cam01.jpg"
 - "/images/suites/elwha/IMG_5327-cam01.jpg"
