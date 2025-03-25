@@ -20,10 +20,10 @@ footer:
   contact: Call 800.391.8190 for reservations
 button_book:
   text: Book the Yakima Suite
-  url: http://www.vacationrentalssanjuanislands.com/Unit/Details/67007
+  url: https://www.nwvacations.com/vacation-rentals/rental/01-1901/
 button_rates:
   text: Rates & Availability
-  url: http://www.vacationrentalssanjuanislands.com/Unit/Details/67007
+  url: https://www.nwvacations.com/vacation-rentals/rental/01-1901/
 images:
 - "/images/suites/yakima/IMG_3406.jpg"
 - "/images/suites/yakima/IMG_3438-alt2.jpg"
